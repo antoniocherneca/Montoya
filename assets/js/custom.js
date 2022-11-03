@@ -146,6 +146,8 @@ jQuery(document).ready(function ($) {
 		loop: true,
 		mouseDrag: true,
 		touchDrag: true,
+		autoplayTimeout: 15000,
+		smartSpeed: 800,
 		navText: [
 			"<i class='fa fa-long-arrow-left'></i>",
 			"<i class='fa fa-long-arrow-right'></i>"
@@ -157,6 +159,7 @@ jQuery(document).ready(function ($) {
 				nav: true,
 				dots: false
 			},
+			// breakpoint from 991 up
 			991: {
 				items: 2,
 				nav: true,
